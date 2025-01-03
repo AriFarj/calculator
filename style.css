@@ -1,0 +1,56 @@
+html {
+    font-family: monospace;
+    background-color: rgb(63, 153, 153);
+}
+#calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 95vh;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 425px;
+    gap: 3px;
+    background-color: black;
+    padding: 16px 0px;
+    justify-content: center;
+}
+
+button {
+    width: 100px;
+    height: 75px;
+    border-radius: 16px;
+    border-style: solid;
+    font-size: 30px;
+}
+
+#display {
+    width: 400px;
+    height: 75px;
+    font-size: 60px;
+    text-align: right;
+    background-color: white;
+    margin-bottom: 4px;
+}
+
+.clear,
+[value="0"] {
+    width: 203px;
+}
+.clear,
+.percent {
+    background-color: lightblue;
+}
+
+.operand {
+    background-color: rgb(134, 130, 130);
+    color: white;
+}
+.operator {
+    background-color: rgb(224, 100, 42);
+    color: white;
+}
